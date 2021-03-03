@@ -1,0 +1,2 @@
+# rickytran.com
+Personal Website
