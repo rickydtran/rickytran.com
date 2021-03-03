@@ -1445,3 +1445,12 @@ hr.case{
 .flex-3 {
   flex: 3;
 }
+
+.list-inline {
+    list-style: none;
+    padding: 0;
+}
+
+.list-inline > li {
+    display: inline;
+}
