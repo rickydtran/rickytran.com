@@ -1154,14 +1154,16 @@ hr.case{
   order: 1;
   margin-left: 20px;
   float: right;
-  border-radius: 50%;  
 }
 
 #me-pic img {
   /*max-width: 425px;*/
   /*min-width: 100px;*/
-  width: 100%;
-  height: auto;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%; 
 }
 
 #the-rest {
