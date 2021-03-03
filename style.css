@@ -1157,13 +1157,13 @@ hr.case{
 }
 
 #me-pic img {
-  /*max-width: 425px;*/
-  /*min-width: 100px;*/
-  width: 200px;
-  height: 200px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%; 
+  max-width: 425px;
+  min-width: 100px;
+  /*width: 200px;*/
+  /*height: 200px;*/
+  /*position: relative;*/
+  /*overflow: hidden;*/
+  /*border-radius: 50%; */
 }
 
 #the-rest {
