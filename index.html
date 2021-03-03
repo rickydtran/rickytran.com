@@ -11,14 +11,13 @@
 
       gtag('config', 'UA-74108003-2');
     </script>
-
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <title>Ricky Tran</title>
+    <title>Sara Cheong -- Designer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Asul:400,700" rel="stylesheet">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
     <script>
@@ -30,6 +29,27 @@
           });
         });
       });
+
+      $(function() {
+        $('#proj-1-img').hide();
+        $('#proj-1').hover( function() { $('#proj-1-img').stop().fadeToggle(); } );
+      });
+
+      $(function() {
+        $('#proj-2-img').hide();
+        $('#proj-2').hover( function() { $('#proj-2-img').stop().fadeToggle(); } );
+      });
+
+      $(function() {
+        $('#proj-3-img').hide();
+        $('#proj-3').hover( function() { $('#proj-3-img').stop().fadeToggle(); } );
+      });
+
+      $(function() {
+        $('#proj-4-img').hide();
+        $('#proj-4').hover( function() { $('#proj-4-img').stop().fadeToggle(); } );
+      });
+
     </script>
 
 
@@ -38,7 +58,7 @@
   <body class="home-container">
 
     <!--  HEADER  -->
-    <div class="home-header">
+    <div class="move-Up home-header">
       <!-- hello + line decoration -->
       <div class="hh-left">
         <div class="hello"><p>Hello!</p></div>
@@ -46,62 +66,30 @@
       </div>
       <!-- intro text -->
       <div class="hh-right">
-        <p>Hello! I’m Ricky, I'm a FPGA Designer currently living in Melbourne, Florida.
-            ( <a href="index.html">back home</a> )</p>
+        <p>I’m Ricky Tran, a FPGA Designer currently living in Melbourne, Florida.
+            (<a href="about.html">more about me</a>)</p>
         <!-- links -->
         <div class="links">
           <ul>
-            <li><p><a href="resources/resume.pdf">resume</a></p></li>
+            <li><p><a href="resources/resume.pdf">resumé</a></p></li>
             <li><p><a href="https://www.linkedin.com/in/rickydtran/">linkedin</a></p></li>
-            <li><p><a href="mailto:rickydtran@gmail.com">say hi</a></p></li>
+            <li><p><a href="mailto:rickydtsran@gmail.com">say hi</a></p></li>
           </ul>
         </div>
+        <br><br><br><br>
       </div>
     </div>
 
 
-    <div class="fade-in home-body-container about">
-      <!-- PICTURE -->
-      <div id="me-pic"> <img src="resources/me.jpg" alt="me"> </div>
+    <div class="home-body-container">
 
-      <!-- TEXT -->
-      <div id="the-rest">
-        <div id="me-desc">
-            <p> 
-            I'm a <a class="inline_link" href="https://www.eng.ufl.edu/academics/schools-departments/ece/" target="blank">Computer/Electrical Engineer</a> currently working at 
-            <a class="inline_link" href="https://www.l3harris.com/who-we-are" target="blank">L3Harris Technologies</a> 
-            in
-            <a class="inline_link" href="https://en.wikipedia.org/wiki/Melbourne,_Florida" target="blank">Melbourne, Florida</a>. I do high reliability
-            <a class="inline_link" href="https://medium.com/the-research-nest/breaking-down-the-job-description-the-digital-design-engineer-72188a4ee814" target="blank">digital design</a> for 
-            <a class="inline_link" href="https://spectrum-instrumentation.com/en/aerospace-applications" target="blank">aerospace applications and digital payloads</a>. 
-            Being also a <a class="inline_link" href="https://medium.com/@olayiwolaayinde/7-ways-to-become-a-full-stack-embedded-software-engineer-9401b591a71c" target="blank">full-stack embedded software developer</a>, I 
-            also get the opportunity to work on a variety of different and cutting edge firmware and software 
-            <a class="inline_link" href="https://blog.rickytran.com/portfolio/" target="blank">platforms/projects</a>.
-            </p>
-        </div>
+    <!-- HOVER IMAGE -->
 
-<!--         <div class="rest-section">
-          <p style="color:#8A8A8A;">  <span style = "color:#5C5C5C; font-size: 14px; text-transform: uppercase; font-family: Filson;"><b>Reading</b></span>  &nbsp;<i>Getting back into it</i> &nbsp;*:・˚</p>
-          <p>Just finished —  <a href="https://www.goodreads.com/book/show/5439.Interpreter_of_Maladies">Interpreter of Maladies</a></p>
-          <p>Currently reading —  <a href="https://www.goodreads.com/book/show/35965482-middlegame">Middlegame</a></p>
-          <p>Up next — <a href="https://www.goodreads.com/book/show/33846181-rubik?ac=1&from_search=true&qid=PTV2kRYBaR&rank=1">Rubik</a></p>
-        </div>
- -->
-<!--         <div class="rest-section">
-          <h2>Current Interests</h2>
-          <p>Doodling on my ipad</p>
-          <p>3D modeling on C4D</p>
-          <p>Bouldering</p>
-          <p>Anything matcha or tea flavored</p>
-        </div> -->
-      </div>
+
+    <!-- PROJECTS -->
 
     </div>
 
-    <div id="about-space"></div>
 
   </body>
-  <footer>
-  </footer>
-
 </html>
