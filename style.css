@@ -1446,6 +1446,11 @@ hr.case{
   flex: 3;
 }
 
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
 .list-inline {
     list-style: none;
     padding: 0;
